@@ -1,0 +1,23 @@
+[project]
+name = "pipeline-iniciante"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "pandas>=3.0.6",
+    "psycopg2-binary>=2.9.13",
+    "python-dotenv>=1.2.4",
+    "requests>=2.34.2",
+    "sqlalchemy>=2.1.4",
+    "tzdata>=2026.5",
+]
+
+[project.scripts]
+pipeline-iniciante = "pipeline_iniciante:main"
+
+[build-system]
+requires = ["uv_build>=0.12.23,<0.13.0"]
+build-backend = "uv_build"
+[tool.uv]
+package = false

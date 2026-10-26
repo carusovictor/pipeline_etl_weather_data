@@ -1,0 +1,12 @@
+{"timestamp":"2026-10-25T00:44:35.775140Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2026-10-25T00:44:35.778238Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/weather_dag.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-10-25T00:44:35.957648Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2026-10-25T00:44:35.958063Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2026-10-25T00:44:35.958578Z","level":"info","event":"Current task name:load","logger":"task.stdout"}
+{"timestamp":"2026-10-25T00:44:35.958912Z","level":"info","event":"Dag name:weather_pipeline","logger":"task.stdout"}
+{"timestamp":"2026-10-25T00:44:36.333556Z","level":"info","event":"Data loaded successfully\n","logger":"root","filename":"load_data.py","lineno":34}
+{"timestamp":"2026-10-25T00:44:36.362645Z","level":"info","event":"Total numbers of records in the table: 7\n","logger":"root","filename":"load_data.py","lineno":37}
+{"timestamp":"2026-10-25T00:44:36.364468Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.decorators.python._PythonDecoratedOperator","filename":"python.py","lineno":230}
+{"timestamp":"2026-10-25T00:44:36.411117Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2026-10-25T00:44:36.411515Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2026-10-25T00:44:36.412195Z","level":"info","event":"Task operator:<Task(_PythonDecoratedOperator): load>","logger":"task.stdout"}
